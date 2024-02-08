@@ -1,0 +1,6 @@
+framework module Pods_HappyDiwaliAnimationTests {
+  umbrella header "Pods-HappyDiwaliAnimationTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

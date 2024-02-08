@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E6D0522B00FBDD00F71A3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6D0512B00FBDD00F71A3C /* AppDelegate.swift */; };
+		04E6D0542B00FBDD00F71A3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6D0532B00FBDD00F71A3C /* SceneDelegate.swift */; };
+		04E6D0562B00FBDD00F71A3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6D0552B00FBDD00F71A3C /* ViewController.swift */; };
+		04E6D0592B00FBDD00F71A3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E6D0572B00FBDD00F71A3C /* Main.storyboard */; };
+		04E6D05B2B00FBDF00F71A3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E6D05A2B00FBDF00F71A3C /* Assets.xcassets */; };
+		04E6D05E2B00FBDF00F71A3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E6D05C2B00FBDF00F71A3C /* LaunchScreen.storyboard */; };
+		04E6D0692B00FBE000F71A3C /* HappyDiwaliAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6D0682B00FBE000F71A3C /* HappyDiwaliAnimationTests.swift */; };
+		04E6D0732B00FBE000F71A3C /* HappyDiwaliAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6D0722B00FBE000F71A3C /* HappyDiwaliAnimationUITests.swift */; };
+		04E6D0752B00FBE000F71A3C /* HappyDiwaliAnimationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6D0742B00FBE000F71A3C /* HappyDiwaliAnimationUITestsLaunchTests.swift */; };
+		2CDAFFBF5940432B5441B415 /* Pods_HappyDiwaliAnimationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E104C9C1F99E36C55DC334E /* Pods_HappyDiwaliAnimationTests.framework */; };
+		8E31D987890BFA261C78B47C /* Pods_HappyDiwaliAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2099F84BA8DAA58DD03C9CCF /* Pods_HappyDiwaliAnimation.framework */; };
+		B66380E32B9FB94CEF613211 /* Pods_HappyDiwaliAnimation_HappyDiwaliAnimationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33CF57092D4CA0696B8AE3E6 /* Pods_HappyDiwaliAnimation_HappyDiwaliAnimationUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04E6D0652B00FBE000F71A3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E6D0462B00FBDC00F71A3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E6D04D2B00FBDD00F71A3C;
+			remoteInfo = HappyDiwaliAnimation;
+		};
+		04E6D06F2B00FBE000F71A3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E6D0462B00FBDC00F71A3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E6D04D2B00FBDD00F71A3C;
+			remoteInfo = HappyDiwaliAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B0285D3E6517CABA5003FC /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests.debug.xcconfig"; path = "Target Support Files/Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests/Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		04E6D04E2B00FBDD00F71A3C /* HappyDiwaliAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyDiwaliAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E6D0512B00FBDD00F71A3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04E6D0532B00FBDD00F71A3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04E6D0552B00FBDD00F71A3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04E6D0582B00FBDD00F71A3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04E6D05A2B00FBDF00F71A3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04E6D05D2B00FBDF00F71A3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04E6D05F2B00FBDF00F71A3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E6D0642B00FBE000F71A3C /* HappyDiwaliAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyDiwaliAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E6D0682B00FBE000F71A3C /* HappyDiwaliAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyDiwaliAnimationTests.swift; sourceTree = "<group>"; };
+		04E6D06E2B00FBE000F71A3C /* HappyDiwaliAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyDiwaliAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E6D0722B00FBE000F71A3C /* HappyDiwaliAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyDiwaliAnimationUITests.swift; sourceTree = "<group>"; };
+		04E6D0742B00FBE000F71A3C /* HappyDiwaliAnimationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyDiwaliAnimationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1690C838F35160AD8338BF99 /* Pods-HappyDiwaliAnimationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyDiwaliAnimationTests.debug.xcconfig"; path = "Target Support Files/Pods-HappyDiwaliAnimationTests/Pods-HappyDiwaliAnimationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2099F84BA8DAA58DD03C9CCF /* Pods_HappyDiwaliAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HappyDiwaliAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22ED363391CD2E59B725D62D /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests.release.xcconfig"; path = "Target Support Files/Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests/Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		33CF57092D4CA0696B8AE3E6 /* Pods_HappyDiwaliAnimation_HappyDiwaliAnimationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HappyDiwaliAnimation_HappyDiwaliAnimationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E104C9C1F99E36C55DC334E /* Pods_HappyDiwaliAnimationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HappyDiwaliAnimationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FF9223760CB127185C7C47E /* Pods-HappyDiwaliAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyDiwaliAnimation.release.xcconfig"; path = "Target Support Files/Pods-HappyDiwaliAnimation/Pods-HappyDiwaliAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		8D4392EEB65B8175250F6ABC /* Pods-HappyDiwaliAnimationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyDiwaliAnimationTests.release.xcconfig"; path = "Target Support Files/Pods-HappyDiwaliAnimationTests/Pods-HappyDiwaliAnimationTests.release.xcconfig"; sourceTree = "<group>"; };
+		E9EECB4FC7DBF8FFD4C4F547 /* Pods-HappyDiwaliAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyDiwaliAnimation.debug.xcconfig"; path = "Target Support Files/Pods-HappyDiwaliAnimation/Pods-HappyDiwaliAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E6D04B2B00FBDD00F71A3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E31D987890BFA261C78B47C /* Pods_HappyDiwaliAnimation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E6D0612B00FBE000F71A3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDAFFBF5940432B5441B415 /* Pods_HappyDiwaliAnimationTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E6D06B2B00FBE000F71A3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66380E32B9FB94CEF613211 /* Pods_HappyDiwaliAnimation_HappyDiwaliAnimationUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E6D0452B00FBDC00F71A3C = {
+			isa = PBXGroup;
+			children = (
+				04E6D0502B00FBDD00F71A3C /* HappyDiwaliAnimation */,
+				04E6D0672B00FBE000F71A3C /* HappyDiwaliAnimationTests */,
+				04E6D0712B00FBE000F71A3C /* HappyDiwaliAnimationUITests */,
+				04E6D04F2B00FBDD00F71A3C /* Products */,
+				567D4934E5244F58F4F4BFF0 /* Pods */,
+				158933E175058F29CFF7DADB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04E6D04F2B00FBDD00F71A3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E6D04E2B00FBDD00F71A3C /* HappyDiwaliAnimation.app */,
+				04E6D0642B00FBE000F71A3C /* HappyDiwaliAnimationTests.xctest */,
+				04E6D06E2B00FBE000F71A3C /* HappyDiwaliAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E6D0502B00FBDD00F71A3C /* HappyDiwaliAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				04E6D0512B00FBDD00F71A3C /* AppDelegate.swift */,
+				04E6D0532B00FBDD00F71A3C /* SceneDelegate.swift */,
+				04E6D0552B00FBDD00F71A3C /* ViewController.swift */,
+				04E6D0572B00FBDD00F71A3C /* Main.storyboard */,
+				04E6D05A2B00FBDF00F71A3C /* Assets.xcassets */,
+				04E6D05C2B00FBDF00F71A3C /* LaunchScreen.storyboard */,
+				04E6D05F2B00FBDF00F71A3C /* Info.plist */,
+			);
+			path = HappyDiwaliAnimation;
+			sourceTree = "<group>";
+		};
+		04E6D0672B00FBE000F71A3C /* HappyDiwaliAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				04E6D0682B00FBE000F71A3C /* HappyDiwaliAnimationTests.swift */,
+			);
+			path = HappyDiwaliAnimationTests;
+			sourceTree = "<group>";
+		};
+		04E6D0712B00FBE000F71A3C /* HappyDiwaliAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04E6D0722B00FBE000F71A3C /* HappyDiwaliAnimationUITests.swift */,
+				04E6D0742B00FBE000F71A3C /* HappyDiwaliAnimationUITestsLaunchTests.swift */,
+			);
+			path = HappyDiwaliAnimationUITests;
+			sourceTree = "<group>";
+		};
+		158933E175058F29CFF7DADB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2099F84BA8DAA58DD03C9CCF /* Pods_HappyDiwaliAnimation.framework */,
+				33CF57092D4CA0696B8AE3E6 /* Pods_HappyDiwaliAnimation_HappyDiwaliAnimationUITests.framework */,
+				4E104C9C1F99E36C55DC334E /* Pods_HappyDiwaliAnimationTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		567D4934E5244F58F4F4BFF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9EECB4FC7DBF8FFD4C4F547 /* Pods-HappyDiwaliAnimation.debug.xcconfig */,
+				4FF9223760CB127185C7C47E /* Pods-HappyDiwaliAnimation.release.xcconfig */,
+				02B0285D3E6517CABA5003FC /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests.debug.xcconfig */,
+				22ED363391CD2E59B725D62D /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests.release.xcconfig */,
+				1690C838F35160AD8338BF99 /* Pods-HappyDiwaliAnimationTests.debug.xcconfig */,
+				8D4392EEB65B8175250F6ABC /* Pods-HappyDiwaliAnimationTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E6D04D2B00FBDD00F71A3C /* HappyDiwaliAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E6D0782B00FBE000F71A3C /* Build configuration list for PBXNativeTarget "HappyDiwaliAnimation" */;
+			buildPhases = (
+				2AADC2FB61D56F0F4B596889 /* [CP] Check Pods Manifest.lock */,
+				04E6D04A2B00FBDD00F71A3C /* Sources */,
+				04E6D04B2B00FBDD00F71A3C /* Frameworks */,
+				04E6D04C2B00FBDD00F71A3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyDiwaliAnimation;
+			productName = HappyDiwaliAnimation;
+			productReference = 04E6D04E2B00FBDD00F71A3C /* HappyDiwaliAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04E6D0632B00FBE000F71A3C /* HappyDiwaliAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E6D07B2B00FBE000F71A3C /* Build configuration list for PBXNativeTarget "HappyDiwaliAnimationTests" */;
+			buildPhases = (
+				3979207514607BB460AB475D /* [CP] Check Pods Manifest.lock */,
+				04E6D0602B00FBE000F71A3C /* Sources */,
+				04E6D0612B00FBE000F71A3C /* Frameworks */,
+				04E6D0622B00FBE000F71A3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E6D0662B00FBE000F71A3C /* PBXTargetDependency */,
+			);
+			name = HappyDiwaliAnimationTests;
+			productName = HappyDiwaliAnimationTests;
+			productReference = 04E6D0642B00FBE000F71A3C /* HappyDiwaliAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04E6D06D2B00FBE000F71A3C /* HappyDiwaliAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E6D07E2B00FBE000F71A3C /* Build configuration list for PBXNativeTarget "HappyDiwaliAnimationUITests" */;
+			buildPhases = (
+				A5AE993563091D15A4884F43 /* [CP] Check Pods Manifest.lock */,
+				04E6D06A2B00FBE000F71A3C /* Sources */,
+				04E6D06B2B00FBE000F71A3C /* Frameworks */,
+				04E6D06C2B00FBE000F71A3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E6D0702B00FBE000F71A3C /* PBXTargetDependency */,
+			);
+			name = HappyDiwaliAnimationUITests;
+			productName = HappyDiwaliAnimationUITests;
+			productReference = 04E6D06E2B00FBE000F71A3C /* HappyDiwaliAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E6D0462B00FBDC00F71A3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					04E6D04D2B00FBDD00F71A3C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					04E6D0632B00FBE000F71A3C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 04E6D04D2B00FBDD00F71A3C;
+					};
+					04E6D06D2B00FBE000F71A3C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 04E6D04D2B00FBDD00F71A3C;
+					};
+				};
+			};
+			buildConfigurationList = 04E6D0492B00FBDC00F71A3C /* Build configuration list for PBXProject "HappyDiwaliAnimation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04E6D0452B00FBDC00F71A3C;
+			productRefGroup = 04E6D04F2B00FBDD00F71A3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E6D04D2B00FBDD00F71A3C /* HappyDiwaliAnimation */,
+				04E6D0632B00FBE000F71A3C /* HappyDiwaliAnimationTests */,
+				04E6D06D2B00FBE000F71A3C /* HappyDiwaliAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E6D04C2B00FBDD00F71A3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E6D05E2B00FBDF00F71A3C /* LaunchScreen.storyboard in Resources */,
+				04E6D05B2B00FBDF00F71A3C /* Assets.xcassets in Resources */,
+				04E6D0592B00FBDD00F71A3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E6D0622B00FBE000F71A3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E6D06C2B00FBE000F71A3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AADC2FB61D56F0F4B596889 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HappyDiwaliAnimation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3979207514607BB460AB475D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HappyDiwaliAnimationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5AE993563091D15A4884F43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E6D04A2B00FBDD00F71A3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E6D0562B00FBDD00F71A3C /* ViewController.swift in Sources */,
+				04E6D0522B00FBDD00F71A3C /* AppDelegate.swift in Sources */,
+				04E6D0542B00FBDD00F71A3C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E6D0602B00FBE000F71A3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E6D0692B00FBE000F71A3C /* HappyDiwaliAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E6D06A2B00FBE000F71A3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E6D0752B00FBE000F71A3C /* HappyDiwaliAnimationUITestsLaunchTests.swift in Sources */,
+				04E6D0732B00FBE000F71A3C /* HappyDiwaliAnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04E6D0662B00FBE000F71A3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E6D04D2B00FBDD00F71A3C /* HappyDiwaliAnimation */;
+			targetProxy = 04E6D0652B00FBE000F71A3C /* PBXContainerItemProxy */;
+		};
+		04E6D0702B00FBE000F71A3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E6D04D2B00FBDD00F71A3C /* HappyDiwaliAnimation */;
+			targetProxy = 04E6D06F2B00FBE000F71A3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04E6D0572B00FBDD00F71A3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E6D0582B00FBDD00F71A3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04E6D05C2B00FBDF00F71A3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E6D05D2B00FBDF00F71A3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04E6D0762B00FBE000F71A3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04E6D0772B00FBE000F71A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04E6D0792B00FBE000F71A3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9EECB4FC7DBF8FFD4C4F547 /* Pods-HappyDiwaliAnimation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HappyDiwaliAnimation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.HappyDiwaliAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04E6D07A2B00FBE000F71A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FF9223760CB127185C7C47E /* Pods-HappyDiwaliAnimation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HappyDiwaliAnimation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.HappyDiwaliAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04E6D07C2B00FBE000F71A3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1690C838F35160AD8338BF99 /* Pods-HappyDiwaliAnimationTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.HappyDiwaliAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyDiwaliAnimation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HappyDiwaliAnimation";
+			};
+			name = Debug;
+		};
+		04E6D07D2B00FBE000F71A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D4392EEB65B8175250F6ABC /* Pods-HappyDiwaliAnimationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.HappyDiwaliAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyDiwaliAnimation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HappyDiwaliAnimation";
+			};
+			name = Release;
+		};
+		04E6D07F2B00FBE000F71A3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02B0285D3E6517CABA5003FC /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.HappyDiwaliAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HappyDiwaliAnimation;
+			};
+			name = Debug;
+		};
+		04E6D0802B00FBE000F71A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22ED363391CD2E59B725D62D /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.HappyDiwaliAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HappyDiwaliAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E6D0492B00FBDC00F71A3C /* Build configuration list for PBXProject "HappyDiwaliAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E6D0762B00FBE000F71A3C /* Debug */,
+				04E6D0772B00FBE000F71A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E6D0782B00FBE000F71A3C /* Build configuration list for PBXNativeTarget "HappyDiwaliAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E6D0792B00FBE000F71A3C /* Debug */,
+				04E6D07A2B00FBE000F71A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E6D07B2B00FBE000F71A3C /* Build configuration list for PBXNativeTarget "HappyDiwaliAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E6D07C2B00FBE000F71A3C /* Debug */,
+				04E6D07D2B00FBE000F71A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E6D07E2B00FBE000F71A3C /* Build configuration list for PBXNativeTarget "HappyDiwaliAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E6D07F2B00FBE000F71A3C /* Debug */,
+				04E6D0802B00FBE000F71A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04E6D0462B00FBDC00F71A3C /* Project object */;
+}

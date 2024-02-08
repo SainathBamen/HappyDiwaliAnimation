@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12E66882AE7364F4EB86C6A4AFB3C636 /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8B2E1765D1C920F7DB719C93B05F77 /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests-dummy.m */; };
+		2CBCE047E2DDB7EF46CDA3269D11870E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3873CE18A79488783E2BD09451B5C697 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5D7DFBCA8A9C19368FC8F7F22492A9C8 /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 855E3D8AEAC8183A186D60491921FF5B /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70FE1819FD17DE8C3D95EE9BDDF8245D /* Pods-HappyDiwaliAnimationTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75554F6FB8281C3FA005F4795BF7986F /* Pods-HappyDiwaliAnimationTests-dummy.m */; };
+		80EB5A267C4CFE04F019DFE0E7C63D40 /* Pods-HappyDiwaliAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD8E7A3C6C5CD0670383D1ABA049CDE /* Pods-HappyDiwaliAnimation-dummy.m */; };
+		83CD9456BECDC0109548F3A5DD0DA80C /* Pods-HappyDiwaliAnimationTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C5D494CA0BCD202C27CD6424432072 /* Pods-HappyDiwaliAnimationTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		956C4284966EC3EE915299C61AD4BDE8 /* Pods-HappyDiwaliAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF66C02FA2E175AB9478371B7F2C3295 /* Pods-HappyDiwaliAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F64E13F65B775E7CE76CC9E65775080 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0808A96B753DE652B3592E7395FCA568 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CF0E9FDF564DE3774715C19D5E882AC;
+			remoteInfo = "Pods-HappyDiwaliAnimation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12C679413A99CF4949F833DF93A6CB2C /* Pods-HappyDiwaliAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HappyDiwaliAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		160ECDB7D478CC8879C816B1E25D81EE /* Pods-HappyDiwaliAnimationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HappyDiwaliAnimationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		29C5D494CA0BCD202C27CD6424432072 /* Pods-HappyDiwaliAnimationTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HappyDiwaliAnimationTests-umbrella.h"; sourceTree = "<group>"; };
+		2CE93379A0E6AAAE5BC0C1601DD05F34 /* Pods-HappyDiwaliAnimation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HappyDiwaliAnimation-Info.plist"; sourceTree = "<group>"; };
+		339322DD12FB53056F89CDD74CBF75E6 /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		35EB9A5B95A9BB2A37A311C03CDB0775 /* Pods_HappyDiwaliAnimation_HappyDiwaliAnimationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HappyDiwaliAnimation_HappyDiwaliAnimationUITests.framework; path = "Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3855ECCE82A47119D7CE3CEA104F82B5 /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4FD8E7A3C6C5CD0670383D1ABA049CDE /* Pods-HappyDiwaliAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HappyDiwaliAnimation-dummy.m"; sourceTree = "<group>"; };
+		539FE27259F50E90CA85A58FDBE1B622 /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75554F6FB8281C3FA005F4795BF7986F /* Pods-HappyDiwaliAnimationTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HappyDiwaliAnimationTests-dummy.m"; sourceTree = "<group>"; };
+		79C0EF83B36DFE9EB83B3B4EE3F97E00 /* Pods-HappyDiwaliAnimation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HappyDiwaliAnimation-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C8B2E1765D1C920F7DB719C93B05F77 /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests-dummy.m"; sourceTree = "<group>"; };
+		82673991D4EB08367CA150ED1A182AB8 /* Pods-HappyDiwaliAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HappyDiwaliAnimation.modulemap"; sourceTree = "<group>"; };
+		855E3D8AEAC8183A186D60491921FF5B /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests-umbrella.h"; sourceTree = "<group>"; };
+		9AC342A7C2C70130E9A43E5951958D35 /* Pods_HappyDiwaliAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HappyDiwaliAnimation.framework; path = "Pods-HappyDiwaliAnimation.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7E7F232473C2E6C0F9D7FF497A1215C /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests-Info.plist"; sourceTree = "<group>"; };
+		ABD1E10E1AFD2459D4331E9DD32A9AD6 /* Pods-HappyDiwaliAnimationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HappyDiwaliAnimationTests.release.xcconfig"; sourceTree = "<group>"; };
+		ADACAA54992A74FE45E62283EAAFE870 /* Pods-HappyDiwaliAnimationTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HappyDiwaliAnimationTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B405FE74BA04BB3F117B0FC942E7980B /* Pods-HappyDiwaliAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HappyDiwaliAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		B67E7A47D28D4B63A96C185BBBE2066B /* Pods-HappyDiwaliAnimation-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HappyDiwaliAnimation-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BC7E35C1559215678AB3FE6E372D53FA /* Pods-HappyDiwaliAnimationTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HappyDiwaliAnimationTests.modulemap"; sourceTree = "<group>"; };
+		BE5857DDFE821A778B1372C4B091EA8A /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BF66C02FA2E175AB9478371B7F2C3295 /* Pods-HappyDiwaliAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HappyDiwaliAnimation-umbrella.h"; sourceTree = "<group>"; };
+		C1A01DCC4C5F0B8C847EC809F6158D40 /* Pods-HappyDiwaliAnimationTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HappyDiwaliAnimationTests-Info.plist"; sourceTree = "<group>"; };
+		E2D0D861DB019DBA643CC5FA0569EC4D /* Pods-HappyDiwaliAnimationTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HappyDiwaliAnimationTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE2BD7DC3D6683BB0F3175ED76CFAE5B /* Pods_HappyDiwaliAnimationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HappyDiwaliAnimationTests.framework; path = "Pods-HappyDiwaliAnimationTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB276074DE34B6B01AC938489442C904 /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ABD175BACF35A72D2DE6978651627D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CBCE047E2DDB7EF46CDA3269D11870E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95BCFED0D57E5F39FA341A5476AC36F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F64E13F65B775E7CE76CC9E65775080 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB810DEF0267573B8FB2279093EFE530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3873CE18A79488783E2BD09451B5C697 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11E5DE28F2715D64957DE8F4749042AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AC342A7C2C70130E9A43E5951958D35 /* Pods_HappyDiwaliAnimation.framework */,
+				35EB9A5B95A9BB2A37A311C03CDB0775 /* Pods_HappyDiwaliAnimation_HappyDiwaliAnimationUITests.framework */,
+				EE2BD7DC3D6683BB0F3175ED76CFAE5B /* Pods_HappyDiwaliAnimationTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28AA3DA8743B5F707F513F963BD436E5 /* Pods-HappyDiwaliAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC7E35C1559215678AB3FE6E372D53FA /* Pods-HappyDiwaliAnimationTests.modulemap */,
+				E2D0D861DB019DBA643CC5FA0569EC4D /* Pods-HappyDiwaliAnimationTests-acknowledgements.markdown */,
+				ADACAA54992A74FE45E62283EAAFE870 /* Pods-HappyDiwaliAnimationTests-acknowledgements.plist */,
+				75554F6FB8281C3FA005F4795BF7986F /* Pods-HappyDiwaliAnimationTests-dummy.m */,
+				C1A01DCC4C5F0B8C847EC809F6158D40 /* Pods-HappyDiwaliAnimationTests-Info.plist */,
+				29C5D494CA0BCD202C27CD6424432072 /* Pods-HappyDiwaliAnimationTests-umbrella.h */,
+				160ECDB7D478CC8879C816B1E25D81EE /* Pods-HappyDiwaliAnimationTests.debug.xcconfig */,
+				ABD1E10E1AFD2459D4331E9DD32A9AD6 /* Pods-HappyDiwaliAnimationTests.release.xcconfig */,
+			);
+			name = "Pods-HappyDiwaliAnimationTests";
+			path = "Target Support Files/Pods-HappyDiwaliAnimationTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6E8CB55AFEBE67EF39A57839A7B654D1 /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				539FE27259F50E90CA85A58FDBE1B622 /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests.modulemap */,
+				339322DD12FB53056F89CDD74CBF75E6 /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests-acknowledgements.markdown */,
+				FB276074DE34B6B01AC938489442C904 /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests-acknowledgements.plist */,
+				7C8B2E1765D1C920F7DB719C93B05F77 /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests-dummy.m */,
+				A7E7F232473C2E6C0F9D7FF497A1215C /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests-Info.plist */,
+				855E3D8AEAC8183A186D60491921FF5B /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests-umbrella.h */,
+				3855ECCE82A47119D7CE3CEA104F82B5 /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests.debug.xcconfig */,
+				BE5857DDFE821A778B1372C4B091EA8A /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests.release.xcconfig */,
+			);
+			name = "Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests";
+			path = "Target Support Files/Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				11E5DE28F2715D64957DE8F4749042AF /* Products */,
+				DFF60FC73D8BA64FF43E0131FD0DF141 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFF60FC73D8BA64FF43E0131FD0DF141 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0D6F5AD35E8617AE2A843A93115B974 /* Pods-HappyDiwaliAnimation */,
+				6E8CB55AFEBE67EF39A57839A7B654D1 /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests */,
+				28AA3DA8743B5F707F513F963BD436E5 /* Pods-HappyDiwaliAnimationTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E0D6F5AD35E8617AE2A843A93115B974 /* Pods-HappyDiwaliAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				82673991D4EB08367CA150ED1A182AB8 /* Pods-HappyDiwaliAnimation.modulemap */,
+				B67E7A47D28D4B63A96C185BBBE2066B /* Pods-HappyDiwaliAnimation-acknowledgements.markdown */,
+				79C0EF83B36DFE9EB83B3B4EE3F97E00 /* Pods-HappyDiwaliAnimation-acknowledgements.plist */,
+				4FD8E7A3C6C5CD0670383D1ABA049CDE /* Pods-HappyDiwaliAnimation-dummy.m */,
+				2CE93379A0E6AAAE5BC0C1601DD05F34 /* Pods-HappyDiwaliAnimation-Info.plist */,
+				BF66C02FA2E175AB9478371B7F2C3295 /* Pods-HappyDiwaliAnimation-umbrella.h */,
+				B405FE74BA04BB3F117B0FC942E7980B /* Pods-HappyDiwaliAnimation.debug.xcconfig */,
+				12C679413A99CF4949F833DF93A6CB2C /* Pods-HappyDiwaliAnimation.release.xcconfig */,
+			);
+			name = "Pods-HappyDiwaliAnimation";
+			path = "Target Support Files/Pods-HappyDiwaliAnimation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02912D90667FDF1E84A9DDA94DAA66DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				956C4284966EC3EE915299C61AD4BDE8 /* Pods-HappyDiwaliAnimation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8277AF1DCAC2A7B9D5C6688BE65A29D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D7DFBCA8A9C19368FC8F7F22492A9C8 /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED22EC4F2EBE1944592AF3E40A13F070 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83CD9456BECDC0109548F3A5DD0DA80C /* Pods-HappyDiwaliAnimationTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1CF0E9FDF564DE3774715C19D5E882AC /* Pods-HappyDiwaliAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0425D5785EF2A8959B23308806E110E /* Build configuration list for PBXNativeTarget "Pods-HappyDiwaliAnimation" */;
+			buildPhases = (
+				02912D90667FDF1E84A9DDA94DAA66DB /* Headers */,
+				A333D557E8C099D0A76C693F689F28D6 /* Sources */,
+				5ABD175BACF35A72D2DE6978651627D2 /* Frameworks */,
+				EE7BE59F02FCE86E7DDC9BA5294F9E3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HappyDiwaliAnimation";
+			productName = "Pods-HappyDiwaliAnimation";
+			productReference = 9AC342A7C2C70130E9A43E5951958D35 /* Pods_HappyDiwaliAnimation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		91D1D5C8686F64F6D105363AB500CBC9 /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D93C381134FB7C3DE19C38E7ADB977 /* Build configuration list for PBXNativeTarget "Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests" */;
+			buildPhases = (
+				8277AF1DCAC2A7B9D5C6688BE65A29D6 /* Headers */,
+				8D38A197299F49CD259374AA3DDB7A79 /* Sources */,
+				BB810DEF0267573B8FB2279093EFE530 /* Frameworks */,
+				A478BB86D7C5AA8DD8A160FF82345E31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests";
+			productName = "Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests";
+			productReference = 35EB9A5B95A9BB2A37A311C03CDB0775 /* Pods_HappyDiwaliAnimation_HappyDiwaliAnimationUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9626DF52670F04748F538F3646D59C7 /* Pods-HappyDiwaliAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD3E3E79D5EB8BEC868C05A930068A2C /* Build configuration list for PBXNativeTarget "Pods-HappyDiwaliAnimationTests" */;
+			buildPhases = (
+				ED22EC4F2EBE1944592AF3E40A13F070 /* Headers */,
+				1721931C22EB2368E99A59FCD3B92398 /* Sources */,
+				A95BCFED0D57E5F39FA341A5476AC36F /* Frameworks */,
+				124C609F823F5683D2AABDBD136AE287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C382B25DFA1D9DD22D5B2EF7CF84652 /* PBXTargetDependency */,
+			);
+			name = "Pods-HappyDiwaliAnimationTests";
+			productName = "Pods-HappyDiwaliAnimationTests";
+			productReference = EE2BD7DC3D6683BB0F3175ED76CFAE5B /* Pods_HappyDiwaliAnimationTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 11E5DE28F2715D64957DE8F4749042AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CF0E9FDF564DE3774715C19D5E882AC /* Pods-HappyDiwaliAnimation */,
+				91D1D5C8686F64F6D105363AB500CBC9 /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests */,
+				C9626DF52670F04748F538F3646D59C7 /* Pods-HappyDiwaliAnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		124C609F823F5683D2AABDBD136AE287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A478BB86D7C5AA8DD8A160FF82345E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7BE59F02FCE86E7DDC9BA5294F9E3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1721931C22EB2368E99A59FCD3B92398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70FE1819FD17DE8C3D95EE9BDDF8245D /* Pods-HappyDiwaliAnimationTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D38A197299F49CD259374AA3DDB7A79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E66882AE7364F4EB86C6A4AFB3C636 /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A333D557E8C099D0A76C693F689F28D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80EB5A267C4CFE04F019DFE0E7C63D40 /* Pods-HappyDiwaliAnimation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C382B25DFA1D9DD22D5B2EF7CF84652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HappyDiwaliAnimation";
+			target = 1CF0E9FDF564DE3774715C19D5E882AC /* Pods-HappyDiwaliAnimation */;
+			targetProxy = 0808A96B753DE652B3592E7395FCA568 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		027EBBD1A74DFFEA4AEDEE098EA35BDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE5857DDFE821A778B1372C4B091EA8A /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests/Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests/Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		058180799D6076168D3D9EEDEC732A1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABD1E10E1AFD2459D4331E9DD32A9AD6 /* Pods-HappyDiwaliAnimationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HappyDiwaliAnimationTests/Pods-HappyDiwaliAnimationTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HappyDiwaliAnimationTests/Pods-HappyDiwaliAnimationTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		24242B68567EA92F01F6AC672B2E8287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		258A053DEB4B43FE655C4C86886F1515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B405FE74BA04BB3F117B0FC942E7980B /* Pods-HappyDiwaliAnimation.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HappyDiwaliAnimation/Pods-HappyDiwaliAnimation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HappyDiwaliAnimation/Pods-HappyDiwaliAnimation.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		739687C26784E38B600F4AC646ED3D7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 160ECDB7D478CC8879C816B1E25D81EE /* Pods-HappyDiwaliAnimationTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HappyDiwaliAnimationTests/Pods-HappyDiwaliAnimationTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HappyDiwaliAnimationTests/Pods-HappyDiwaliAnimationTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		775B31D1061EC9217349CB9341AD4EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		98A659FA71735B2AD4BACAE8EA103A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12C679413A99CF4949F833DF93A6CB2C /* Pods-HappyDiwaliAnimation.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HappyDiwaliAnimation/Pods-HappyDiwaliAnimation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HappyDiwaliAnimation/Pods-HappyDiwaliAnimation.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC690B8829F29CF01DC6ACECF528BA45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3855ECCE82A47119D7CE3CEA104F82B5 /* Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests/Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests/Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36D93C381134FB7C3DE19C38E7ADB977 /* Build configuration list for PBXNativeTarget "Pods-HappyDiwaliAnimation-HappyDiwaliAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC690B8829F29CF01DC6ACECF528BA45 /* Debug */,
+				027EBBD1A74DFFEA4AEDEE098EA35BDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24242B68567EA92F01F6AC672B2E8287 /* Debug */,
+				775B31D1061EC9217349CB9341AD4EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0425D5785EF2A8959B23308806E110E /* Build configuration list for PBXNativeTarget "Pods-HappyDiwaliAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				258A053DEB4B43FE655C4C86886F1515 /* Debug */,
+				98A659FA71735B2AD4BACAE8EA103A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD3E3E79D5EB8BEC868C05A930068A2C /* Build configuration list for PBXNativeTarget "Pods-HappyDiwaliAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				739687C26784E38B600F4AC646ED3D7D /* Debug */,
+				058180799D6076168D3D9EEDEC732A1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
